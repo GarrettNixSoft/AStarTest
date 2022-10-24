@@ -5,6 +5,14 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
 
+
+/**
+ * Full disclosure, the code in this class is not mine;
+ * unfortunately I don't remember where I got it from anymore.
+ *
+ * It isn't important for the AStar implementation, I only used it
+ * to generate the maze files for testing.
+ */
 public class MyMaze {
   private int dimensionX, dimensionY; // dimension of maze
   private int gridDimensionX, gridDimensionY; // dimension of output grid
