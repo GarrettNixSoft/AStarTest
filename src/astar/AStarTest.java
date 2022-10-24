@@ -23,6 +23,7 @@ public class AStarTest {
 		};
 		System.out.println("Using: priority queues");
 		JFileChooser fileChooser = new JFileChooser();
+		fileChooser.setCurrentDirectory(new File(System.getProperty("user.dir")));
 		fileChooser.showDialog(null, "Open");
 
 		File file = fileChooser.getSelectedFile();
